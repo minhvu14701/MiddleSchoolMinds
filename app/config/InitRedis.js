@@ -1,6 +1,6 @@
 const redis = require("ioredis");
 const client = new redis(
-  "redis://:gdwxCyR7smy6DLkBX7n92PuG98h4fwkg@redis-14972.c292.ap-southeast-1-1.ec2.cloud.redislabs.com:14972"
+  "redis://default:Pjj06VmH23IVoJlyyfhqB8JnU7RmCdye@redis-13108.c252.ap-southeast-1-1.ec2.cloud.redislabs.com:13108"
 );
 
 client.ping(function (err, result) {

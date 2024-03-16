@@ -15,6 +15,8 @@ global._io = io;
 const socketIo = require("./app/config/socket.js");
 const userRouter = require("./app/routers/user.js");
 const examRouter = require("./app/routers/exam.js");
+const quesAnsRouter = require("./app/routers/quesAns.js");
+const otherRouter = require("./app/routers/other.js");
 dotenv.config();
 
 app.use((req, res, next) => {
@@ -34,6 +36,8 @@ app.use(express.json());
 //router
 app.use("/api/user", userRouter);
 app.use("/api/exam", examRouter);
+app.use("/api/quesAns", quesAnsRouter);
+app.use("/api/other", otherRouter);
 //socketIo
 // global._io.use((socket, next) => {
 //   const username = socket.handshake.auth?.username; //Dấu?: Nếu có data thì trả về user, nếu k có thì trả về underfind
