@@ -19,5 +19,19 @@ export async function register(data) {
     console.log(err);
   }
 }
-
+//other
+export async function subject() {
+  try {
+    return await axios.get("api/other/subject");
+  } catch (err) {
+    console.log(err);
+  }
+}
+export async function listClass() {
+  try {
+    return await axios.get("api/other/class");
+  } catch (err) {
+    console.log(err);
+  }
+}
 //exam

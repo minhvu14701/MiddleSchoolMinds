@@ -76,7 +76,7 @@
             </svg>
           </div>
           <p class="ml-2 text-sm font-medium text-white">
-            Email: minh137664@gmail.com
+            Email: minh137664@huce.edu.vn
           </p>
         </div>
       </div>

@@ -32,9 +32,11 @@
             <p class="text-base font-normal">Kì thi</p>
           </div>
         </router-link>
-        <div class="ml-16">
-          <p class="text-base font-normal">Diễn đàn</p>
-        </div>
+        <router-link :to="`/forum`">
+          <div class="ml-16">
+            <p class="text-base font-normal">Diễn đàn</p>
+          </div>
+        </router-link>
       </div>
       <div class="ml-16 w-[1px] h-5 bg-slate-700"></div>
       <div class="ml-16">
@@ -70,11 +72,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  setup() {
-    return {};
-  },
-};
-</script>

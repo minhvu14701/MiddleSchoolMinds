@@ -6,7 +6,7 @@
     </header>
     <div>
       <div>
-        <div class="ml-80 mt-12">
+        <div class="ml-80 mt-12 bg-[#FFF]">
           <!-- nút bấm -->
           <!-- vùng hiển thị 1-->
           <div
@@ -15,7 +15,7 @@
           >
             <div class="mt-6 ml-8">
               <!-- tìm kiếm -->
-              <div class="container flex flex-row">
+              <div class="container flex flex-row bg-[#FFF]">
                 <div
                   class="grid grid-cols-3 gap-x-10 justify-center items-center text-sm font-normal"
                 >

@@ -6,7 +6,7 @@
       <Sidebar />
     </header>
     <div>
-      <div class="ml-80 mt-12">
+      <div class="ml-80 mt-12 bg-[#FFF]">
         <!-- nút bấm -->
         <!-- vùng hiển thị 1-->
         <div
@@ -90,10 +90,10 @@
 </template>
 
 <script>
-import headerMain from "../../components/headerfooter/headerMain.vue";
-import header2 from "../../components/headerfooter/header2.vue";
-import footerPage from "../../components/headerfooter/footerPage.vue";
-import examItem from "../../components/exam/examItem.vue";
+import headerMain from "@/components/headerfooter/headerMain.vue";
+import header2 from "@/components/headerfooter/header2.vue";
+import footerPage from "@/components/headerfooter/footerPage.vue";
+import examItem from "@/components/exam/examItem.vue";
 import { getExamStore } from "../../stores/exam/ExamStore.js";
 import { storeToRefs } from "pinia";
 import { useUserStore } from "../../stores/UserStore.js";

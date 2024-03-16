@@ -46,6 +46,12 @@ const routes = [
     name: "CalPoint",
     component: () => import("@/view/exam/CaculePoint.vue"),
   },
+  //forum
+  {
+    path: "/forum",
+    name: "Forum",
+    component: () => import("@/view/forum/forumView.vue"),
+  },
 ];
 
 const router = createRouter({
